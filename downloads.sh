@@ -1,10 +1,8 @@
 #!/bin/sh
 
-## SOFTWARE: samtools
-## VERSION: 1.2
-wget https://github.com/samtools/samtools/releases/download/1.2/samtools-1.2.tar.bz2
-tar -xjf samtools-1.2.tar.bz2
-cd samtools-1.2
-make
-cd ..
-ln -s samtools-1.2 samtools
+## SOFTWARE: hicfilters
+## VERSION: 0.1.0
+wget https://github.com/4dn-dcic/hicfilters/archive/0.1.0.tar.gz
+tar -xzf 0.1.0.tar.gz
+chmod 777 hicfilters-0.1.0/filterHiCReads.py
+ln -s hicfilters-0.1.0 hicfilters
