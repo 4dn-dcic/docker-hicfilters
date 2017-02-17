@@ -6,7 +6,7 @@ Data-type-independent, generic bam sorting module
 * Output : a bam file with filter flags (.ff.bam)
 
 
-This repo contains the source files for a docker image stored in duplexa/hicfilters:v1. (we will change the docker hub account soon)
+This repo contains the source files for a docker image stored in duplexa/hicfilters:v2. (we will change the docker hub account soon)
 
 
 ## Cloning the repo
@@ -21,10 +21,10 @@ The `downloads.sh` file also contains comment lines that specifies the name and 
 
 
 ## Building docker image
-You need docker daemon to rebuild the docker image. If you want to push it to a different docker repo, replace duplexa/hicfilters:v1 with your desired docker repo name. You need permission to push to duplexa/hicfilters:v1.
+You need docker daemon to rebuild the docker image. If you want to push it to a different docker repo, replace duplexa/hicfilters:v2 with your desired docker repo name. You need permission to push to duplexa/hicfilters:v2.
 ```
-docker build -t duplexa/hicfilters:v1 .
-docker push duplexa/hicfilters:v1
+docker build -t duplexa/hicfilters:v2 .
+docker push duplexa/hicfilters:v2
 ```
 
 ## Usage
